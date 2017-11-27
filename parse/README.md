@@ -39,12 +39,12 @@ done
 ## indiv_transform.py
 Transform parsed per-sample ANNOVAR output to a more useable table format.
 ```
-python add_panther_anno.py -i input_gene_table_with_counts.tsv -j gene_list.txt -o output_name
+python indiv_transform.py -i input_gene_table_with_counts.tsv -j gene_list.txt -o output_name
 ```
 
 ## transform_refGene_table.py
 Transform parsed pooled ANNOVAR output to a more useable table format.
 ```
-python add_panther_anno.py -i input_gene_table_with_counts.tsv -j gene_list.txt -o output_name
+python transform_refGene_table.py -i input_gene_table_with_counts.tsv -j gene_list.txt -o output_name
 ```
 

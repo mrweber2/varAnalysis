@@ -1,7 +1,7 @@
 # plot
 Scripts and example data for plotting analysis output.
 
-## plot_mutations
+## plot_mutations.py
 Take table of counts of mutation types by genes and graph lines on the same plot.
 
 Usage: modify line 20 with table to plot.
